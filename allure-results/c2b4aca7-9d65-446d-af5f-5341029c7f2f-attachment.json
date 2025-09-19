@@ -1,0 +1,176 @@
+[
+  {
+    "sessionId": "00a7d402-3967-4cba-8e1a-76175de28e7a",
+    "elementId": "aad5a8cb-aac7-407f-8f4b-71eff82d5954",
+    "element-6066-11e4-a52e-4f735466cecf": "aad5a8cb-aac7-407f-8f4b-71eff82d5954",
+    "selector": "#flash",
+    "parent": {
+      "sessionId": "00a7d402-3967-4cba-8e1a-76175de28e7a",
+      "capabilities": {
+        "platformName": "Android",
+        "browserName": "Chrome",
+        "webSocketUrl": "ws://192.168.1.13:61447//bidi/00a7d402-3967-4cba-8e1a-76175de28e7a",
+        "unhandledPromptBehavior": "ignore",
+        "deviceName": "emulator-5556",
+        "platformVersion": "11",
+        "automationName": "UiAutomator2",
+        "udid": "emulator-5556",
+        "systemPort": 8201,
+        "chromedriverPort": 9516,
+        "chromedriverUseSystemExecutable": false,
+        "platform": "LINUX",
+        "webStorageEnabled": false,
+        "takesScreenshot": true,
+        "javascriptEnabled": true,
+        "databaseEnabled": false,
+        "networkConnectionEnabled": true,
+        "locationContextEnabled": false,
+        "warnings": {},
+        "desired": {
+          "platformName": "Android",
+          "browserName": "Chrome",
+          "webSocketUrl": true,
+          "unhandledPromptBehavior": "ignore",
+          "deviceName": "nightwatch-android-11",
+          "platformVersion": "11.0",
+          "automationName": "UiAutomator2",
+          "udid": "emulator-5556",
+          "systemPort": 8201,
+          "chromedriverPort": 9516,
+          "chromedriverUseSystemExecutable": false,
+          "appPackage": "com.android.chrome",
+          "appActivity": "com.android.chrome/com.google.android.apps.chrome.Main"
+        },
+        "deviceUDID": "emulator-5556",
+        "pixelRatio": "2.75",
+        "statBarHeight": 145,
+        "viewportRect": {
+          "left": 0,
+          "top": 145,
+          "width": 1080,
+          "height": 2195
+        },
+        "deviceApiLevel": 30,
+        "deviceManufacturer": "Google",
+        "deviceModel": "sdk_gphone_x86_64",
+        "deviceScreenSize": "1080x2340",
+        "deviceScreenDensity": 440
+      },
+      "visualService": {
+        "defaultOptions": {
+          "addressBarShadowPadding": 6,
+          "autoElementScroll": true,
+          "addIOSBezelCorners": false,
+          "autoSaveBaseline": true,
+          "clearFolder": false,
+          "userBasedFullPageScreenshot": false,
+          "enableLegacyScreenshotMethod": false,
+          "formatImageName": "{tag}-{browserName}-{width}x{height}-dpr-{dpr}",
+          "isHybridApp": false,
+          "savePerInstance": false,
+          "toolBarShadowPadding": 6,
+          "disableBlinkingCursor": false,
+          "disableCSSAnimation": false,
+          "enableLayoutTesting": false,
+          "fullPageScrollTimeout": 1500,
+          "hideScrollBars": true,
+          "waitForFontsLoaded": true,
+          "compareOptions": {
+            "blockOutSideBar": true,
+            "blockOutStatusBar": true,
+            "blockOutToolBar": true,
+            "createJsonReportFiles": false,
+            "diffPixelBoundingBoxProximity": 5,
+            "ignoreAlpha": false,
+            "ignoreAntialiasing": false,
+            "ignoreColors": false,
+            "ignoreLess": false,
+            "ignoreNothing": false,
+            "rawMisMatchPercentage": false,
+            "returnAllCompareData": false,
+            "saveAboveTolerance": 0,
+            "scaleImagesToSameSize": false
+          },
+          "tabbableOptions": {
+            "circle": {
+              "backgroundColor": "#ff0000",
+              "borderColor": "#000",
+              "borderWidth": 1,
+              "fontColor": "#fff",
+              "fontFamily": "Arial",
+              "fontSize": 10,
+              "size": 10,
+              "showNumber": true
+            },
+            "line": {
+              "color": "#000",
+              "width": 1
+            }
+          }
+        },
+        "folders": {
+          "actualFolder": ".tmp/actual",
+          "baselineFolder": "__snapshots__/",
+          "diffFolder": ".tmp/diff"
+        },
+        "_contextManager": {
+          "cachedViewport": {
+            "bottomBar": {
+              "y": 0,
+              "x": 0,
+              "width": 1080,
+              "height": 0
+            },
+            "homeBar": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "leftSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "rightSidePadding": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            },
+            "statusBar": {
+              "y": 0,
+              "x": 0,
+              "width": 1080,
+              "height": 145
+            },
+            "statusBarAndAddressBar": {
+              "y": 0,
+              "x": 0,
+              "width": 1080,
+              "height": 0
+            },
+            "screenSize": {
+              "width": 1080,
+              "height": 2340
+            },
+            "viewport": {
+              "y": 0,
+              "x": 0,
+              "width": 0,
+              "height": 0
+            }
+          }
+        },
+        "_contextManagers": {}
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  },
+  "flashAlert",
+  {
+    "returnAllCompareData": true
+  }
+]
