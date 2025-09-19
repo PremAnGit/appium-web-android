@@ -2,6 +2,8 @@
 
 Appium is a strongly recommend to do Mobile Testing.
 
+Install Appium as per the instructions in the actual Appium website : https://appium.io/docs/en/latest/
+
 Start the appium : 
 1. appium
 
@@ -25,6 +27,12 @@ To Run the tests from the config file.
 
 1. npm run wdio
 
+Command to generte and open Allure report
+
+1. npm run allure:generate
+2. npm run allure:open
+
+
 Commands when updating node_modules and package-lock 
 1. remove the node_module and package-lock ; rm -rf node_modules package-lock.json
 
@@ -34,7 +42,4 @@ Commands when updating node_modules and package-lock
 3. Install fresh
    npm install
 
-Command to generte and open Allure report
 
-1. npm run allure:generate
-2. npm run allure:open

@@ -64,7 +64,7 @@ exports.config = {
             allowInsecure: ['chromedriver_autodownload'],
             sessionOverride: true,
         }
-    }]
+    }],'visual'
 ],
     framework: 'mocha',
     reporters: [

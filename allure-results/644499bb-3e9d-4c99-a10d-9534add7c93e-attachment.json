@@ -1,9 +1,0 @@
-{
-  "fileName": "flashAlert-chrome-393x851-dpr-2.75.png",
-  "folders": {
-    "actual": ".tmp/actual/flashAlert-chrome-393x851-dpr-2.75.png",
-    "baseline": "/Users/prem/github/appium-web-android/test/specs/__snapshots__/flashAlert-chrome-393x851-dpr-2.75.png",
-    "diff": ".tmp/diff/flashAlert-chrome-393x851-dpr-2.75.png"
-  },
-  "misMatchPercentage": 0
-}
