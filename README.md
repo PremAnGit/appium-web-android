@@ -27,9 +27,13 @@ To Run the tests from the config file.
 
 1. npm run wdio
 
+To Run only a single test.
+1. Select the respective test by adding it.only ( for eg: it.only (' should display the checkbox 1 selected and checkbox 2 deselected',.... ) to that test.
+2. then in the termincal run the specific test file : npx wdio wdio.conf.js --spec ./test/specs/test.e2e.js
+
 Command to generte and open Allure report
 
-1. npm run allure:generate
+1. npx allure generate ./allure-results --clean -o ./allure-report  ( or npm run allure:generate)
 2. npm run allure:open
 
 

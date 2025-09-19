@@ -9,24 +9,26 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
-    maxInstances: 2,
-    capabilities: [{
+    maxInstances: 1,
+    specs: ['./test/specs/**/*.js'],
+    capabilities: [
+        {
         // capabilities for local Appium web tests on an Android Emulator - Pixel_11
-        specs: ['./test/specs/**/*.js'],
-        platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'Pixel_11',
-        'appium:platformVersion': '11.0',
-        'appium:automationName': 'UiAutomator2',
-        'appium:udid': 'emulator-5554',
-        'appium:systemPort': 8200,
-        'appium:chromedriverPort': 9515,
-        'appium:noReset': true,
-        'appium:newCommandTimeout': 240,
-        'appium:chromedriverUseSystemExecutable': false,
+       
+       platformName: 'Android',
+       'appium:automationName': 'UiAutomator2',
+       'appium:deviceName': 'Pixel_11',
+       'appium:platformVersion': '11.0',
+       browserName: 'Chrome',
+       'appium:udid': 'emulator-5554',
+       'appium:noReset': true,
+       'appium:newCommandTimeout': 240,
+       'appium:systemPort': 8200,
+       'appium:chromedriverPort': 9515,
+       'appium:chromedriverUseSystemExecutable': false,
         maxInstances: 1
     },
-    {
+     {
         // capabilities for local Appium web tests on an Android Emulator - 2 - nightwatch-android-11
         specs: ['./test/specs/**/*.js'],
         platformName: 'Android',
@@ -43,10 +45,10 @@ exports.config = {
         "appium:webSocketUrl": true,
         "appium:unhandledPromptBehavior": "ignore",
         maxInstances: 1
-    },
-    {
+    }  
+   // {
         // capabilities for local App tests to run on Emulator -3 
-    }
+  //  }
 
 ],
     logLevel: 'info',
