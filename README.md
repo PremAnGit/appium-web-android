@@ -47,3 +47,9 @@ Commands when updating node_modules and package-lock
    npm install
 
 
+How to Update it on the Git 
+1. Make changes to the respecitve tests and related depencies accordingly.
+2. then check the files which are udpated. ( like, on the zsh type git status)
+3. then if all correct type git add . ( or git add the respective files)
+4. then git commit -m " A decent message explaining the change"
+5. then git push ( or git push f)
