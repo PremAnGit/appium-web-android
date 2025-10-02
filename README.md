@@ -6,6 +6,8 @@ Install Appium as per the instructions in the actual Appium website : https://ap
 
 Start the appium : 
 1. appium
+2. If recieving any chrome driver error. Try this : appium --allow-insecure uiautomator2:chromedriver_autodownload
+
 
 Emulators :
 
